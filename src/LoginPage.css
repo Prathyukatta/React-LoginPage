@@ -1,0 +1,55 @@
+
+body{
+    background-color: rgb(28, 28, 61);
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.element{
+    margin: 250px auto;
+    padding: 20px;
+   width:300px;
+   border: 1px solid #ccc;
+    text-align: center;
+    border-radius: 8px;
+}
+.mail{
+    color: azure;
+     margin-right: 130px;
+}
+.form{
+    display:flex;
+    flex-direction: column;
+}
+.pass{
+    color: azure;
+    margin-right: 100px;
+}
+input{
+    border-radius: 7px;
+    width: 200px;
+    height: 35px;
+    box-sizing: border-box;
+    margin: 10px 0;
+    padding: 10px;
+    margin-left: 60px;
+}
+.button{
+   border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin: 10px 120px;
+    padding: 5px;
+    background-color: rgb(134, 99, 129);
+    transition: background-color 0.3s ease;
+   
+}
+.button:hover{
+    background-color: rgb(51, 90, 67);
+}
+span{
+    color: rgb(151, 210, 210);
+}
+h1{
+    color: rgb(123, 85, 39);
+}
